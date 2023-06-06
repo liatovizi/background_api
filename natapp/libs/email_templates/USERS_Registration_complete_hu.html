@@ -1,0 +1,13 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>{{ subject }}</title>    
+    </head>
+    <body>
+        <h>regisztráció megerősítése</h>
+        <p>Kérem erősítse meg email címét és regisztrációját az alábbi linkre kattintva.</p>
+        <a href="{{ verifyaccount_url }}{{ token }}" target="_blank">{{ verifyaccount_url }}{{ token }}</a>
+    </body>
+</html>
